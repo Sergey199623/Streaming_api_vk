@@ -1,15 +1,11 @@
 package Databases;
 
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
-import com.mongodb.ServerAddress;
-import com.mongodb.MongoCredential;
-import com.mongodb.MongoClientOptions;
+import com.mongodb.*;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.MongoCollection;
 import org.bson.Document;
 import java.util.Arrays;
-import com.mongodb.Block;
+
 import com.mongodb.client.MongoCursor;
 import static com.mongodb.client.model.Filters.*;
 import com.mongodb.client.result.DeleteResult;
@@ -35,4 +31,7 @@ public class MongoDB {
             options);
 
 //    MongoDatabase database = mongoClient.getDatabase("mydb");  В случае локальной БД
+
+    BasicDBObject doc = new BasicDBObject();
+
 }

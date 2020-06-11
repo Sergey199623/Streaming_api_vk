@@ -119,5 +119,13 @@
                 <version>3.4.3</version>
             </dependency>
 
+        <!-- RabbitMQ dependency -->
+
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.9.0</version>
+        </dependency>
+
     </dependencies>
 </project>

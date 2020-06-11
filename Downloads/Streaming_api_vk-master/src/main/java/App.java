@@ -1,4 +1,5 @@
-import Databases.ConnectToRabbitMQ;
+import Databases.RabbitMQ;
+import Databases.MongoDB;
 import com.vk.api.sdk.client.TransportClient;
 import com.vk.api.sdk.client.VkApiClient;
 import com.vk.api.sdk.client.actors.ServiceActor;
@@ -83,9 +84,7 @@ public class App {
 
                     }
 
-                } catch (StreamingClientException e) {
-                    e.printStackTrace();
-                } catch (StreamingApiException e) {
+                } catch (StreamingClientException | StreamingApiException e) {
                     e.printStackTrace();
                 }
 
@@ -166,7 +165,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ConnectToRabbitMQ.class, args); //Запуск коннекта к RabbitMQ
+        SpringApplication.run(RabbitMQ.class, args); //Запуск коннекта к RabbitMQ
         timer();
     }
 
