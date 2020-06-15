@@ -177,6 +177,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,16 +272,17 @@
       <workItem from="1591907209104" duration="146000" />
       <workItem from="1591995522334" duration="133000" />
       <workItem from="1592043835927" duration="214000" />
+      <workItem from="1592081380615" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4619000" />
+    <option name="totallyTimeSpent" value="4690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="23" width="1143" height="715" extended-state="1" />
+    <frame x="55" y="23" width="1143" height="715" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27247956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2770209" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
